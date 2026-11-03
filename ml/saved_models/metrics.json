@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "model_name": "logistic_regression",
+      "accuracy": 0.9128,
+      "precision": 0.9,
+      "recall": 0.9223,
+      "f1_score": 0.911,
+      "roc_auc": 0.9738
+    },
+    {
+      "model_name": "decision_tree",
+      "accuracy": 0.9359,
+      "precision": 0.9472,
+      "recall": 0.9187,
+      "f1_score": 0.9327,
+      "roc_auc": 0.9715
+    },
+    {
+      "model_name": "random_forest",
+      "accuracy": 0.9453,
+      "precision": 0.9343,
+      "recall": 0.9541,
+      "f1_score": 0.9441,
+      "roc_auc": 0.9911
+    },
+    {
+      "model_name": "svm",
+      "accuracy": 0.9402,
+      "precision": 0.9247,
+      "recall": 0.9541,
+      "f1_score": 0.9391,
+      "roc_auc": 0.9827
+    },
+    {
+      "model_name": "xgboost",
+      "accuracy": 0.9513,
+      "precision": 0.9504,
+      "recall": 0.9488,
+      "f1_score": 0.9496,
+      "roc_auc": 0.993
+    }
+  ],
+  "best_model": "xgboost",
+  "feature_count": 30,
+  "train_size": 4679,
+  "test_size": 1170
+}

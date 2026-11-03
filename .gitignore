@@ -1,0 +1,86 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Environment Variables ────────────────────────────────────────────────────
+.env
+# Do NOT ignore .env.example — it's a safe template
+
+# ─── ML / Data ────────────────────────────────────────────────────────────────
+ml/data/raw/
+ml/data/processed/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Keep the directories (via .gitkeep)
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+!ml/saved_models/.gitkeep
+
+# ─── Jupyter Notebooks (output cells) ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Node.js / Frontend ───────────────────────────────────────────────────────
+node_modules/
+frontend/phishing-ui/dist/
+frontend/phishing-ui/.vite/
+frontend/phishing-ui/coverage/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+*.log.*
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# ─── Plots (regenerable) ──────────────────────────────────────────────────────
+ml/saved_models/plots/
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
